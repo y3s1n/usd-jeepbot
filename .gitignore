@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------
+# Image data and datasets -- never commit these.
+# ---------------------------------------------------------------
+
+# captured campus frames (~3.0 GB)
+dataset/
+# COCO-2017 subset pulled by src/pull_public.py (~1.1 GB)
+public/
+# sampled frames for manual review
+review_sample/
+# generated contact sheets
+contact_sheets/
+# rendered label overlays
+label_view/
+# dataset.py visual sanity checks
+check/
+# evaluate.py drawn predictions
+preds/
+preds_train/
+preds_overfit/
+
+# Loose image files anywhere in the tree
+*.jpg
+*.jpeg
+
+# ---------------------------------------------------------------
+# Annotations -- the raw labelling work product, kept local.
+# ---------------------------------------------------------------
+
+# YOLO-format .txt labels produced by src/merge.py
+labels/
+# Label Studio project exports
+exports/
+# generated Label Studio task JSON
+labelstudio/
+
+# ---------------------------------------------------------------
+# Model weights and checkpoints
+# ---------------------------------------------------------------
+*.pt
+*.pth
+*.onnx
+checkpoints/
+
+# ---------------------------------------------------------------
+# Environments
+# ---------------------------------------------------------------
+
+# Label Studio virtualenv
+ls/
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

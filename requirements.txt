@@ -1,0 +1,25 @@
+# Core: dataset, model, training, evaluation, metrics
+# (src/dataset.py, model.py, train.py, detect.py, evaluate.py, metrics.py)
+torch==2.14.1
+numpy==2.2.6
+pillow==12.3.0
+
+# Plots produced by src/metrics.py (optional -- numbers are still written
+# without it, graphs are just skipped)
+matplotlib==3.10.9
+
+# Frame review, contact sheets, auditing and the live demo
+# (src/audit.py, sheets.py, verify.py, capture.py, live.py)
+opencv-python==5.0.0.93
+
+# --- Optional extras, installed per task ---------------------------------
+# YOLOv8 pre-labelling and height measurement
+# (src/prelabel.py, measure.py, verify.py)
+# ultralytics
+#
+# OAK-D camera capture and the live demo
+# (src/capture.py, live.py)  -- lives in the separate `oak` environment
+# depthai
+#
+# Pulling the COCO-2017 person subset (src/pull_public.py)
+# fiftyone==1.22.1

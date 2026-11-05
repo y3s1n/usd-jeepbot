@@ -1,0 +1,37 @@
+metric,class,iou,condition,height_px,value,labeled_boxes
+AP,person,0.5,all,,0.1463,1206
+AP,fire_hydrant,0.5,all,,0.0,35
+AP,trash_can,0.5,all,,0.0,82
+mAP,all classes,0.5,all,,0.0488,1323
+AP,person,0.3,all,,0.2971,1206
+AP,fire_hydrant,0.3,all,,0.0,35
+AP,trash_can,0.3,all,,0.0041,82
+mAP,all classes,0.3,all,,0.1004,1323
+AP,person,0.5,sun,,0.1392,717
+AP,fire_hydrant,0.5,sun,,0.0,8
+AP,trash_can,0.5,sun,,0.0,46
+AP,person,0.5,dusk,,0.1704,489
+AP,fire_hydrant,0.5,dusk,,0.0,27
+AP,trash_can,0.5,dusk,,0.0001,36
+recall@conf0.9,person,0.5,all,0-60,0.0092,436
+recall@conf0.9,person,0.5,all,60-150,0.1828,383
+recall@conf0.9,person,0.5,all,150-300,0.4537,227
+recall@conf0.9,person,0.5,all,300+,0.4812,160
+recall@conf0.9,fire_hydrant,0.5,all,0-60,0.0,21
+recall@conf0.9,fire_hydrant,0.5,all,60-150,0.0,8
+recall@conf0.9,fire_hydrant,0.5,all,150-300,0.0,4
+recall@conf0.9,fire_hydrant,0.5,all,300+,0.0,2
+recall@conf0.9,trash_can,0.5,all,0-60,0.0,63
+recall@conf0.9,trash_can,0.5,all,60-150,0.0,17
+recall@conf0.9,trash_can,0.5,all,150-300,0.0,2
+recall@conf0.9,person,0.3,all,0-60,0.0344,436
+recall@conf0.9,person,0.3,all,60-150,0.342,383
+recall@conf0.9,person,0.3,all,150-300,0.5551,227
+recall@conf0.9,person,0.3,all,300+,0.5812,160
+recall@conf0.9,fire_hydrant,0.3,all,0-60,0.0,21
+recall@conf0.9,fire_hydrant,0.3,all,60-150,0.0,8
+recall@conf0.9,fire_hydrant,0.3,all,150-300,0.0,4
+recall@conf0.9,fire_hydrant,0.3,all,300+,0.0,2
+recall@conf0.9,trash_can,0.3,all,0-60,0.0,63
+recall@conf0.9,trash_can,0.3,all,60-150,0.0,17
+recall@conf0.9,trash_can,0.3,all,150-300,0.0,2
